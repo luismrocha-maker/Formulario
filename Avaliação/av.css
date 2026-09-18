@@ -1,0 +1,68 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eee;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    color: #222;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: #1472ff;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background: #444;
+}
+
+#resultado {
+    display: none;
+    margin-top: 20px;
+}
+
+#listaParcelas {
+    margin-top: 10px;
+}
+
+.parcela {
+    background: #eee;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+
+#idade {
+    color: blue;
+}

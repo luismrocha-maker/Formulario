@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulador de Empréstimo</title>
+    <link rel="stylesheet" href="av.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Simulador de Empréstimo</h1>
+        <h2>Banco SENAI</h2>
+
+        <form id="formulario">
+
+            <label>Nome Completo:</label>
+            <input type="text" id="nome">
+
+            <label>Data de Nascimento: <span id="idade"></span></label>
+            <input type="date" id="nascimento">
+
+            <label>CPF (Apenas 11 números):</label>
+            <input type="text" id="cpf" maxlength="11">
+
+            <label>Valor do Empréstimo (R$):</label>
+            <input type="number" id="valor" step="any">
+
+            <label>Taxa de Juros Simples (%):</label>
+            <input type="number" id="juros" step="any">
+
+            <label>Quantidade de Parcelas:</label>
+            <input type="number" id="parcelas">
+
+            <button type="submit">Calcular Empréstimo</button>
+
+        </form>
+
+        <div id="resultado">
+            <h2>Resumo da Simulação</h2>
+
+            <p>Idade Calculada: <span id="idadeResumo"></span></p>
+            <p>Montante Total com Juros: <span id="montante"></span></p>
+
+            <h3>Parcelas</h3>
+            <div id="listaParcelas"></div>
+
+            <button id="nova" type="button">Nova Simulação</button>
+        </div>
+
+    </div>
+
+    <script src="av.js"></script>
+</body>
+</html>
