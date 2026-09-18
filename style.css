@@ -1,0 +1,23 @@
+
+body {
+    font-family: Arial;
+    background: #eee;
+}
+
+.formulario {
+    background: white;
+    width: 300px;
+    padding: 20px;
+    margin: 50px auto;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+}
